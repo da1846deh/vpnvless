@@ -10,43 +10,44 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     background: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-.container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px; 
+
+.header {
+    margin-top: 50px; 
+    margin-bottom: auto; 
 }
 
-/* Настройки логотипа */
 .logo {
-    width: 150px; 
-    height: 150px; 
-    object-fit: contain; 
+    width: 80px;
+    height: 80px; 
+    object-fit: contain;
+}
+
+/* Контейнер для кнопки (центр) */
+.main-content {
+    margin-bottom: auto;
 }
 
 .button {
     background: #000000;
     color: #ffffff;
-    padding: 16px 40px; 
+    padding: 16px 30px;
     border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-    transition: transform 0.1s;
     display: inline-block;
+    transition: transform 0.1s;
 }
 
 .button:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 </style>
 </head>
