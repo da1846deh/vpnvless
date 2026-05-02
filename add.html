@@ -6,29 +6,47 @@
 <title>🌏 Invisio</title>
 
 <style>
-body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:#ffffff;
-    font-family:Arial, sans-serif;
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
-.button{
-    background:#000000;
-    color:#ffffff;
-    padding:16px 30px;
-    border-radius:30px;
-    text-decoration:none;
-    font-size:18px;
-    font-weight:600;
-    box-shadow:0 6px 16px rgba(0,0,0,0.2);
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
 }
 
-.button:active{
-    transform:scale(0.97);
+/* Настройки логотипа */
+.logo {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain; 
+}
+
+.button {
+    background: #000000;
+    color: #ffffff;
+    padding: 16px 40px; 
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    transition: transform 0.1s;
+    display: inline-block;
+}
+
+.button:active {
+    transform: scale(0.95);
 }
 </style>
 </head>
